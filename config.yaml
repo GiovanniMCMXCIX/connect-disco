@@ -1,0 +1,16 @@
+bot:
+  levels:
+    201742045952344064: 500
+  plugins:
+    - mods.admin
+  commands_enabled: true
+  commands_require_mention: true
+  commands_mention_rules:
+    everyone: false
+    role: false
+    user: true
+  commands_prefix: '?'
+  commands_allow_edit: true
+manhole_enable: true
+manhole_bind: !!python/tuple ['localhost', 8090]
+encoder: 'etf'
